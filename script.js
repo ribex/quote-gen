@@ -22,6 +22,9 @@ var makeAQuote = function() {
             var charHtml = "<p>--- " + character + "</p>";
             $("#quote").html(quoteHtml);
             $("#character").html(charHtml);
+            var twitterHtml = '<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=' + quote + " --" + character + '">Tweet</a>';
+$("#tweet").html(twitterHtml);
         }
     });
 };
+
