@@ -1,7 +1,7 @@
 $(document).ready(function() {
     makeAQuote();
 
-    $("#generate").submit(function(event) {
+    $("#generate").click(function(event) {
         event.preventDefault();
         makeAQuote();
     });
